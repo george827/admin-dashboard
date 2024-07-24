@@ -224,7 +224,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/george827/admin-dashboard/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/george827/admin-dashboard/blob/main/LICENSE) licensed.
 
 
 
