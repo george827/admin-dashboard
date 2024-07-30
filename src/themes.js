@@ -121,3 +121,33 @@ export const tokens = (theme) => ({
 })
  
 // Mui theme settings
+
+export const themesSettings = (mode) => {
+    const colors = tokens(mode);
+
+    return {
+        pallete: {
+            mode: mode,
+            ...(mode === 'dakr'
+                ? {
+                    primary: {
+                        main: colors.primary[500],
+
+                },
+                secondary: {
+                    main: colors.greenAccent[500],
+                },
+                neutral: {
+                    main: colors.grey[500],
+                    light: colors.grey[100],
+                    dark: colors.grey[700],
+                },
+                background: {
+                    default: colors.primary[500],
+                    
+                },
+            }
+            )
+        },
+    }
+};
