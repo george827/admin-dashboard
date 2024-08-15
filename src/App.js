@@ -1,4 +1,5 @@
-
+import { colorModeContext, useMode } from "./themes";
+import { CssBaseline, ThemeProvider } from "@mui/material";
 
 function App() {
   return (
