@@ -180,25 +180,23 @@ export const themesSettings = (mode) => {
         fontWeight: 700,
       },
       h4: {
-        fontSize: "1.5rem",
+        fontSize: "1.5rem", //20
         fontWeight: 700,
       },
       h5: {
-        fontSize: "1.25rem",
+        fontSize: "1.25rem", // 16
         fontWeight: 700,
       },
       h6: {
-        fontSize: "1rem",
+        fontSize: "1rem", // 14
         fontWeight: 700,
-      },
-      body1: {
-        fontSize: "1rem",
-        fontWeight: 400,
-      },
-      body2: {
-        fontSize: "0.875rem",
-        fontWeight: 400,
-      },
+      }
     },
   };
 };
+
+// context for color mode
+
+export const colorModeContext = createContext({
+  toggleColorMOde: () => {},
+});
